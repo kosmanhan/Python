@@ -11,6 +11,7 @@ def digsum(n):
 def lastdig(n):
   return int((str(n))[-1])
 
+#checking the last digit to determine evenness
 def evennum(n):
   t=lastdig(n)
   even=[0,2,4,6,8]

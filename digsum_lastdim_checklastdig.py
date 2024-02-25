@@ -1,7 +1,7 @@
 #finding the digital sum of a number, n
 def digsum(n):
-  while len(str(n))>1:
     digsum=0
+  while len(str(n))>1:
     for i in range(len(str(n))):
       digsum=digsum+int(str(n)[i])
     n=digsum
